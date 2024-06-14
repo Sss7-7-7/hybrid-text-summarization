@@ -33,7 +33,7 @@ def funforfrontend(input_file):
 
         word_embeddings = {}
         # Here we use glove word embeddings of 100 dimension
-        f = open(r"C:\Users\sriha\Documents\builds\github uploaded\glove.6B.100d.txt", encoding='utf-8')
+        f = open("glove.6B.100d.txt", encoding='utf-8')
         for line in f:
             values = line.split()
             word = values[0]
