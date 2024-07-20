@@ -53,10 +53,17 @@ Libraries and Tools
 
 • Select the top-ranked sentences to form an initial summary.
 
-7.Refine Summary with K-Means Clustering:
+7. Refine Summary with K-Means Clustering:
 
 • Perform K-means clustering on sentence vectors, then select the closest sentences to cluster centroids to include in the summary.
 
 8. Generate Final Summary with BART:
 
 • Tokenize the cleaned and summarized text, process it in chunks, and use the BART model to generate a coherent final summary.
+
+## Necessary Libraries:
+nltk: Needed for tokenizing.
+```bash
+   import nltk  # import nlp toolkit library
+   nltk.download('punkt')  # one-time download
+   nltk.download('stopwords')  # one-time download
