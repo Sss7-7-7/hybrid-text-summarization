@@ -64,6 +64,6 @@ Libraries and Tools
 ## Necessary Libraries:
 nltk: Needed for tokenizing.
 ```bash
-   import nltk  # import nlp toolkit library
-   nltk.download('punkt')  # one-time download
-   nltk.download('stopwords')  # one-time download
+import nltk  # import nlp toolkit library
+nltk.download('punkt')  # one-time download
+nltk.download('stopwords')  # one-time download
