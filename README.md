@@ -67,3 +67,21 @@ nltk: Needed for tokenizing.
 import nltk  # import nlp toolkit library
 nltk.download('punkt')  # one-time download
 nltk.download('stopwords')  # one-time download
+```
+
+## Credits
+
+This project was developed with the assistance of various resources and tools, including:
+
+- [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) - Used for word embeddings.
+- [NetworkX](https://networkx.github.io/) - Used for graph-based ranking algorithms.
+- [NLTK](https://www.nltk.org/) - Used for text preprocessing and tokenization.
+- [scikit-learn](https://scikit-learn.org/) - Used for cosine similarity and K-Means clustering.
+- [Hugging Face Transformers](https://huggingface.co/transformers/) - Used for BART model implementation.
+- [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/) - Used for plotting and visualization.
+
+Special thanks to [ChatGPT by OpenAI](https://www.openai.com/research/chatgpt) for providing assistance with generating and refining the content of this project.
+
+## Acknowledgments
+
+- Special thanks to [[Sathyanarayana-NITK](https://github.com/Sathyanarayana-NITK)] for the guidance.
